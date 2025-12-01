@@ -43,7 +43,7 @@ int Queue::Front()
 {
     if(IsEmpty())
     {
-        throw std::out_of_range("Array index out of bounds");
+        throw std::out_of_range("Queue is empty!");
     }
     return queue[first];
 }
