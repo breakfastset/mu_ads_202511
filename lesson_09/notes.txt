@@ -1,0 +1,15 @@
+
+Linear Search (target 150, 8 searches)   worst case is n searches
+[13, 45, 67, 89, 101, 120, 130, 150, 190, 300, 400]
+ 0   1   2    3   4    5    6    7   8     9    10
+
+ BinarySearch (4 searches)  worst case is log2 n searches
+ 120 - 190 - 130 - 150
+
+ Linear Search has efficiency of O(n)
+ Binary Search has efficiency of O(log n)
+
+
+O(3N^2 + 3N + 62) = O(N^2)
+// discard the lower terms and take the highest term
+// discard the coefficient
